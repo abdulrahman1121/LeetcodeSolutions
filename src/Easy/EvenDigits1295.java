@@ -1,5 +1,6 @@
-
+package Easy;
 // Find how many numbers in the array have an even number of digits
+// 1295. Find numbers with even number of digits
 
 public class EvenDigits1295 {
 
