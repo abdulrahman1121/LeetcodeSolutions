@@ -19,12 +19,12 @@ public class twoSum {
     // Optimized solution using hashmap
     int[] ans2(int[] nums, int target) {
         HashMap<Integer, Integer> numMap = new HashMap<>();
-        for(int i = 0; i < nums.length; i++) {
-            int complement = target - nums[i];
+        for(int index = 0; index < nums.length; index++) {
+            int complement = target - nums[index];
             if(numMap.containsKey(complement)) {
-                return new int[]{numMap.get(complement), i};
+                return new int[]{numMap.get(complement), index};
             }
-            numMap.put(nums[i], i);
+            numMap.put(nums[index], index);
         }
         return nums;
     }
