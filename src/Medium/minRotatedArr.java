@@ -18,6 +18,6 @@ public class minRotatedArr {
             }
         }
         return nums[start];
-        //When start and end are equal then we found our answer, loop breaks so we return the element at start or end index
+        //When start and end are equal then we found our answer, loop breaks, so we return the element at start or end index
     }
 }
